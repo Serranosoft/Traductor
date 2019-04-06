@@ -1,0 +1,51 @@
+\hypertarget{classdao_1_1_ingles_o_p}{}\section{dao.\+Ingles\+OP Class Reference}
+\label{classdao_1_1_ingles_o_p}\index{dao.InglesOP@{dao.InglesOP}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Array\+List$<$ \mbox{\hyperlink{classvo_1_1_ingles}{Ingles}} $>$ \mbox{\hyperlink{classdao_1_1_ingles_o_p_a2ca6d784eb05b7ef5dfbbe9778778aaa}{select\+Ingles}} ()
+\item 
+boolean \mbox{\hyperlink{classdao_1_1_ingles_o_p_abeb9b4d0a23ed1723406892aacea5bbe}{crear\+Palabra\+Ingles}} (String palabra\+\_\+original, String palabra\+\_\+traducida)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Clase donde indicamos todos los tipos de operaciones de la tabla Ingles de la base de datos \begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyAuthor}{Author}
+manue 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classdao_1_1_ingles_o_p_abeb9b4d0a23ed1723406892aacea5bbe}\label{classdao_1_1_ingles_o_p_abeb9b4d0a23ed1723406892aacea5bbe}} 
+\index{dao.InglesOP@{dao.InglesOP}!crearPalabraIngles@{crearPalabraIngles}}
+\index{crearPalabraIngles@{crearPalabraIngles}!dao.InglesOP@{dao.InglesOP}}
+\subsubsection{\texorpdfstring{crearPalabraIngles()}{crearPalabraIngles()}}
+{\footnotesize\ttfamily boolean dao.\+Ingles\+O\+P.\+crear\+Palabra\+Ingles (\begin{DoxyParamCaption}\item[{String}]{palabra\+\_\+original,  }\item[{String}]{palabra\+\_\+traducida }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Función para insertar en la base de datos registros en ingles, la palabra original y traducida pasadas por parametro y la letra obtenida de la palabra original con el metodo char\+At(0) para obtener la primera letra 
+\begin{DoxyParams}{Parameters}
+{\em palabra\+\_\+original} & Cadena de texto que hace referencia a la palabra en ingles \\
+\hline
+{\em palabra\+\_\+traducida} & Cadena de texto que hace referencia a la palabra traducida al español \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Devuelve booleano true si se ha logrado la inserción en la base de datos 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classdao_1_1_ingles_o_p_a2ca6d784eb05b7ef5dfbbe9778778aaa}\label{classdao_1_1_ingles_o_p_a2ca6d784eb05b7ef5dfbbe9778778aaa}} 
+\index{dao.InglesOP@{dao.InglesOP}!selectIngles@{selectIngles}}
+\index{selectIngles@{selectIngles}!dao.InglesOP@{dao.InglesOP}}
+\subsubsection{\texorpdfstring{selectIngles()}{selectIngles()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classvo_1_1_ingles}{Ingles}}$>$ dao.\+Ingles\+O\+P.\+select\+Ingles (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Función para obtener en objetos todos los valores de la tabla ingles de la base de datos \begin{DoxyReturn}{Returns}
+Devuelve un Array\+List con los distintos objetos 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/dao/Ingles\+O\+P.\+java\end{DoxyCompactItemize}
